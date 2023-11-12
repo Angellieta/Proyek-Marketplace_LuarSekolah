@@ -1,0 +1,101 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	background-color: rgb(255, 255, 255);
+	font-family: 'open sans';
+}
+.slide-pict {
+	margin-top: 80px;
+}
+.slide-pict img {
+	vertical-align: middle;
+}
+.cont-slide {
+	max-width: 10000px;
+	margin: auto;
+}
+
+.photo {
+	display: flex;
+	justify-content: center;
+	margin-top: -100px;
+	z-index: 99;
+}
+label {
+	font-family: 'Gill Sans';
+	font-weight: bold;
+	font-size: 26px;
+}
+input[type='text'] {
+	padding: 12px;
+	border: 3px solid #e0dddd;
+	border-radius: 10px;
+	width: 500px;
+	font-size: 16px;
+}
+
+.form-nama {
+	margin: 0 40px 20px;
+}
+.form-alamat {
+	margin: 0 26px 20px;
+}
+.form-nohp {
+	margin: 0 26px 20px;
+}
+input[type='email'] {
+	padding: 12px;
+	border: 3px solid #e0dddd;
+	border-radius: 10px;
+	width: 500px;
+	font-size: 16px;
+}
+input[type='date'] {
+	padding: 12px;
+	border: 3px solid #e0dddd;
+	border-radius: 10px;
+	width: 500px;
+	font-size: 16px;
+}
+input[type='password'] {
+	padding: 12px;
+	border: 3px solid #e0dddd;
+	border-radius: 10px;
+	width: 500px;
+	font-size: 16px;
+}
+#picture {
+	margin: 20px 0px;
+}
+input[type='file'] {
+	font-size: 16px;
+	margin: 16px 0px 45px -110px;
+}
+button[type='submit'] {
+	color: white;
+	background-color: #4e2f22;
+	font-size: 26px;
+	font-weight: bold;
+	width: 500px;
+	height: 40px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 30px 0;
+}
+.btn {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 150px;
+}
+.div-reg{
+	display: flex;
+	justify-content: space-around;
+}
+.form-pro{
+	margin: 20px 0;
+}
+h1{
+	margin: 20px;
+}

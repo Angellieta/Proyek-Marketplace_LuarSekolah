@@ -1,0 +1,182 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	font-family: 'Poppins', sans-serif;
+	color: #5b3714;
+	margin: 0;
+	padding: 0;
+
+	background-image: url(../img-form/bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	display: flex;
+	flex-direction: column;
+}
+
+img {
+	width: 150px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	margin-left: 45px;
+	margin-right: 45px;
+	position: fixed;
+}
+
+table {
+	width: 1100px;
+	height: 400px;
+	margin-top: 15px;
+}
+
+form {
+	font-size: small;
+	padding: 20px;
+}
+
+legend {
+	text-align: center;
+	font-family: 'Yeseva One', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	color: #3b672f;
+}
+
+input {
+	padding: 10px;
+	margin-top: 2px;
+	border-radius: 3px;
+	border: 0;
+}
+
+input:focus {
+	outline: none;
+	border: 1px solid #5b3714;
+	background: #c5a586;
+}
+
+button {
+	float: right;
+	margin-right: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 0;
+	background: #577e4c;
+	color: white;
+	border-radius: 5px;
+	font-size: 5x;
+}
+
+label {
+	margin-bottom: 2px;
+}
+
+.welcome {
+	margin: 0px;
+	font-family: 'Yeseva One', cursive;
+	font-size: 50px;
+	color: #3b672f;
+	padding-bottom: 10px;
+}
+
+.slogan {
+	margin: 0px;
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 30px;
+	color: #5b3714;
+	padding-top: 0px;
+	padding-left: 5px;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+}
+
+.intro {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	margin-bottom: 60px;
+}
+
+.regis {
+	margin-right: 100px;
+}
+
+.container {
+	border-radius: 10px;
+	background: rgba(228, 212, 184, 0.9);
+
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.pad {
+	padding-left: 330px;
+}
+
+#file-input {
+	padding-left: -5px;
+}
+
+.btnradio {
+	display: flex;
+	font-size: smaller;
+	padding-bottom: 10px;
+}
+
+.tanggal-lahir {
+	padding-top: 20px;
+}
+
+.registrasi {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.label-inputan {
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 5px;
+}
+
+.tlahir {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.file {
+	padding-top: 5px;
+}
+
+#jenis {
+	padding-top: 10px;
+	accent-color: #5b3714;
+}
+
+.upload {
+	border: 0;
+	border-radius: 3px;
+	font-family: 'Poppins', sans-serif;
+	color: #5b3714;
+}
+a{
+	text-decoration: none;
+}
+.gender-label{
+	margin-top: 5px;
+	font-size: 14px;
+}
+.input-label{
+	padding: 4px;
+}
